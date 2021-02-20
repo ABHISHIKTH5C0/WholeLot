@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en" style="background-color: #DC3545; height: 600px;">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="C:\Users\Abhishikth\Desktop\Career Learnings\My project\WholeLot\login.css">
+    <link rel="stylesheet" href="C:\Users\Abhishikth\Desktop\Career Learnings\My project\WholeLot\styles.css">
+    <title>WholeLot - Solutions</title>
+    <link href="https://wholelot.azureedge.net/images/images/favicon.ico" rel="shortcut icon">
+  </head>
+  <body class="whole" style="background-color:#DC3545;" >
+
+    <nav class="navbar navbar-expand-xl navbar-light "  style="background-color: #ffffff ;" uk-sticky>
+        <div class="container-fluid " >
+          <a class="navbar-brand" href="#" style="margin-right: 150px;"><img alt="WholeLot" class=" logo" style="width: 200px;" src="https://wholelot.azureedge.net/images/images/logo.svg" data-src="https://wholelot.azureedge.net/images/images/logo.svg"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="color: #DC3545;">
+            <span class="navbar-toggler-icon" style="color: #DC3545;"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <!-- <form class="d-inline-flex p-3">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form> -->
+                  <div class="input-group w-100"style="margin-top: 30px;">
+                    <input class="form-control" id="" placeholder="Search anything here" type="search" aria-label="Search anything here" itemprop="query-input" name="search" required="" style="width:60%; width: 500px;" >
+                    <div class="input-group-append">
+                        <button type="button" class="btn btn-danger" id="globalSearchButton" aria-label="Search" aria-pressed="false" role="button">
+                       
+                        <svg height="18" viewBox="0 0 1792 1792" width="50" xmlns="http://www.w3.org/2000/svg" fill="black"><path d="M1216 832q0-185-131.5-316.5t-316.5-131.5-316.5 131.5-131.5 316.5 131.5 316.5 316.5 131.5 316.5-131.5 131.5-316.5zm512 832q0 52-38 90t-90 38q-54 0-90-38l-343-342q-179 124-399 124-143 0-273.5-55.5t-225-150-150-225-55.5-273.5 55.5-273.5 150-225 225-150 273.5-55.5 273.5 55.5 225 150 150 225 55.5 273.5q0 220-124 399l343 343q37 37 37 90z"></path></svg>
+                        </button>
+                    </div>
+                  </div>
+             
+              
+            </ul>
+            
+            <ul class="nav navbar-nav navbar-right d-flex justify-content-between gap-2 " style="position: relative; margin-right: 80px;">
+                <li style="color: red;"><hr class="dropdown-divider"></li>
+                <li class="nav-item" >
+                    <a class="nav-link active" aria-current="page" href="C:\Users\Abhishikth\Desktop\Career Learnings\My project\WholeLot\index.html" style="color: black; ">
+                        <!--HOME ICON NAV-->
+                        <button class="btn btn-outline-danger" style="border: 0; position: relative; bottom: 15px;"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+                            <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"/>
+                          </svg></i> </a></button>
+                </li>
+                
+                <li style="color: red;"><hr class="dropdown-divider"></li>
+                <li class="nav-item">
+
+                  <a class="uk-button " href="#modal-center" uk-toggle><button class="btn btn-outline-danger " style="border: 0; position: relative; bottom: -10px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="black" class="bi bi-person-fill" viewBox="0 0 16 16">
+                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                  </svg> </button></a>
+                  <div id="modal-center" class="uk-flex-top " uk-modal  >
+                    <div class="uk-modal-dialog  uk-margin-auto-vertical uk-animation-slide-right" style="height: 500px; width:700px;border-radius: 40px; position:relative; bottom: 10px;">
+                      <a href="C:\Users\Abhishikth\Desktop\Career Learnings\My project\WholeLot\solutions.html">
+                        <button class="loginclose uk-close-large uk-modal-header" type="button" uk-close  ></button>
+                      </a>
+                        
+                        <a class=" loginlogo" href="#" style="margin-left: 25%;"><img  alt="WholeLot" class="loginlogo"  src="https://wholelot.azureedge.net/images/images/logo.svg" data-src="https://wholelot.azureedge.net/images/images/logo.svg"></a>
+                          <p  class="logindesc">Welcome Back, Please login to your account.</p>
+                        <form class="loginform" >
+
+                          <div class="uk-margin" style="border-top: 0;">
+                              <div class="uk-inline">
+                                  <span class="uk-form-icon uk-form-icon-flip" uk-icon="user"></span>
+                                  <input class="uk-input" style="color: #DC3545;" placeholder="username" type="text" >
+                              </div>
+                          </div>
+                      
+                          <div class="uk-margin">
+                              <div class="uk-inline">
+                                  <span class="uk-form-icon uk-form-icon-flip" uk-icon="icon: lock"></span>
+                                  <input class="uk-input" style="color: #DC3545;" placeholder="password" type="password">
+                              </div>
+                          </div>
+                          <div class="row"  style="margin-right: 0px;">
+                            <div>
+                          <label class= "loginrember" > <input  type="checkbox" >Remember me </input> 
+                          </div>
+                            <a class="uk-button-link loginfp " href="#modal-container" uk-toggle >Forgot Password?</a> 
+                            <div id="modal-container" class="uk-modal-container" uk-modal>
+
+                              <!--FORGOT PASSWORD-->
+                              <div class="uk-modal-dialog  uk-margin-auto-vertical uk-animation-slide-right" style="height: 300px; width:700px;border-radius: 40px; position:relative; bottom: 0px;">
+                                <a href="C:\Users\Abhishikth\Desktop\Career Learnings\My project\WholeLot\solutions.html">
+                                  <button class=" loginclose uk-close-large uk-modal-header" type="button" uk-close  ></button>
+                                </a>
+                                <a class=" loginlogo" href="#" style="margin-left: 25%;"><img  alt="WholeLot" class="loginlogo"  src="https://wholelot.azureedge.net/images/images/logo.svg" data-src="https://wholelot.azureedge.net/images/images/logo.svg"></a>
+                                <p  class="logindesc">Enter your email and we send you a reset link.</p>
+                                  
+
+                                    <div >
+                                        <input class="requestemail"  type="text" placeholder="Email"> </input>
+                                      
+                                    </div>
+
+                                        <button class=" requestbtn uk-button uk-button-danger " >Send Request</button>
+                                      
+                                    
+                                
+                              </div>
+                          </div></label>
+                            <!--Sign UP register-->
+                            <div>
+
+                              <div id="modal-register" class="uk-modal-container" uk-modal>
+                                  <div class="uk-modal-dialog  uk-responsive-width uk-animation-slide-right "style="height: 600px; width:700px;border-radius: 40px; position:relative; bottom: 0px;"  >
+                                      <button class=" uk-modal-close-default" type="button" style="position: relative; left: 90%; width: 30px; height: 50px; bottom: 10%;" uk-close></button>
+                                      
+                                        <a class="loginlogo" href="#" style="margin-left: 25%; "><img style="margin-top: 5%;"  alt="WholeLot" class="loginlogo"  src="https://wholelot.azureedge.net/images/images/logo.svg" data-src="https://wholelot.azureedge.net/images/images/logo.svg"></a>
+                                      <p  class="logindesc">Welcome,PLease Sing up your account</p>
+                                    
+                                      <div class="signcontainer" >
+                                            <div class="logname">
+                                              <input type="text" placeholder=" First name">
+                                              <input type="text" placeholder="Last name">
+                                                                                  
+                                              <input type="email" placeholder="Enter your email">
+                                            
+                                              <input type="password" placeholder="Password">
+                                            
+                                
+                                              <input type="password" placeholder="Confirm Password">
+                                            </div>
+                                            
+      
+                                      </div>    
+                                      <div class="regcheck"> 
+                                        <label ><input  type="checkbox" >I agree with terms and conditions</label> 
+                                      </div>
+                                      <div>
+                                      <a class=" btnsign uk-button uk-button-danger " style="border-radius: 40px; background-color: #DC3545;">Sign Up</a>
+                                      </div>
+                                      <div style=" position:relative;left: 25%;">
+                                        <p>Already have an account? <a href="#modal-center" uk-toggle> Login </a></p>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <p uk-margin style="position: relative; right: 15%;">
+                                
+                                <a class="uk-button uk-button-danger float-left" style="border-radius: 40px; background-color: #DC3545;" >Login</a>
+                                <a class=" logsignup uk-button uk-button-danger float-right" href="#modal-register" uk-toggle>Sign Up</a>
+                            </p>
+                           
+                          </div> 
+                    </div>
+
+                    
+
+                          
+                      
+                      </form>
+
+                      
+                       
+                    </div>
+                </div>
+                </li>
+                <li style="color: red;"><hr class="dropdown-divider"></li>
+
+                <!--MORE DROPDOWN LIST NAV-->
+                <div class="uk-inline">
+                    <button class="btn-outline-danger " type="button" style="border-color: black; margin-top: 25px; margin-left: 10px;position: relative; bottom: 10px; width: 30px; height: 30px;" uk-icon="icon:  more-vertical" ><span  ></span></button>
+                    <div uk-dropdown>
+                        <ul class="uk-nav uk-dropdown-nav">
+                            <li class="uk-active"><a href="#">Active</a></li>
+                            <li><a href="#">Item</a></li>
+                            <li class="uk-nav-header">Header</li>
+                            <li><a href="#">Item</a></li>
+                            <li><a href="#">Item</a></li>
+                            <li class="uk-nav-divider"></li>
+                            <li><a href="#">Item</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- <li class="nav-item dropdown" >
+                    <a class="nav-link dropdown-toggle btn btn-outline-danger" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: black;position: relative; margin-top: 15px; margin-left: 5px; height: 55px; font-weight: bold; ">
+                    More
+                    </a>
+                    <ul class="dropdown-menu"  style=>
+                    <li><a class="dropdown-item" href="#" style="color: #DC3545;">About</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#" style="color: #DC3545;">Contact</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#" style="color: #DC3545;">Transactions</a></li>
+                    </ul>
+                </li> -->
+
+            </ul>  <!--nav navbar-right -->
+          </div>
+        </div>
+      </nav>
+
+<!-- body content -->
+<div class="row "  style="margin: 0em; height: auto;  width: auto;  " >
+
+        <!--home description-->
+        <div class="solutions-box col-lg-4 col-sm-12"  > 
+              <div class="container-fluid">
+                <h1 class="come" style="color: #ffffff ;  font-size: 100px; margin: 0 0; text-decoration: underline ; ">Our</h1>
+                <h1 class="with" style="color: #ffffff ;  font-size: 80px; margin: 0 0;text-decoration: underline;">Solutions</h1>
+              </div>
+        </div>
+        <!--SERVICE CONTENT-->
+
+        <div class="service-box col-lg-8 col-sm-12" >
+              <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
+                <!--Ecommerce--> 
+                <div> 
+                      <div class="uk-card uk-card-default uk-card-body" style="background-color: rgba(23, 35, 59, 0.6); text-align: center; padding-left: 0px; padding-top: 50px;">
+                          <h3 class="ecom uk-card-title" style="color: #ffffff; height:100px;;"><button class="uk-button uk-button-text uk-button-large " style="font-size: 2rem; color: #ffffff;padding: 15px;">E-commerce</button></h3>
+                          
+                      </div>
+                  </div>
+                  <!--SAAS SERVICES-->
+                  <div>
+                    <div class="uk-card uk-card-default uk-card-body" style="background-color: rgba(23, 35, 59, 0.6); text-align: center; padding-left: 0px; padding-top: 50px;">
+                      <h3 class="ecom uk-card-title" style="color: #ffffff; height:100px;;"><button class="uk-button uk-button-text uk-button-large " style="font-size: 2rem; color: #ffffff;padding: 15px;">Saas Services</button></h3>
+                      
+                  </div>
+                  </div>
+                  <!--BANKING-->
+                  <div>
+                    <div class="uk-card uk-card-default uk-card-body" style="background-color: rgba(23, 35, 59, 0.6); text-align: center; padding-left: 0px; padding-top: 50px;">
+                      <h3 class="ecom uk-card-title" style="color: #ffffff; height:100px;;"><button class="uk-button uk-button-text uk-button-large " style="font-size: 2rem; color: #ffffff;padding: 15px;">Banking</button></h3>
+                      
+                  </div>
+                  </div>
+                  <!--AML SOLUTIONS-->
+                  <div>
+                    <div class="uk-card uk-card-default uk-card-body" style="background-color: rgba(23, 35, 59, 0.6); text-align: center; padding-left: 0px; padding-top: 50px;">
+                      <h3 class="ecom uk-card-title" style="color: #ffffff; height:100px;;"><button class="uk-button uk-button-text uk-button-large " style="font-size: 2rem; color: #ffffff;padding: 15px;">AML SOLUTIONS</button></h3>
+                      
+                  </div>
+                </div>
+                <!--TARDING-->
+                <div>
+                  <div class="uk-card uk-card-default uk-card-body" style="background-color: rgba(23, 35, 59, 0.6); text-align: center; padding-left: 0px; padding-top: 50px;">
+                    <h3 class="ecom uk-card-title" style="color: #ffffff; height:100px;;"><button class="uk-button uk-button-text uk-button-large " style="font-size: 2rem; color: #ffffff;padding: 15px;">TRADING</button></h3>
+                    
+                </div>
+                </div>
+                <!--PAYMENT GATESWAYS-->
+                <div>
+                  <div class="uk-card uk-card-default uk-card-body" style="background-color: rgba(23, 35, 59, 0.6); text-align: center; padding-left: 0px; padding-top: 50px;">
+                    <h3 class="ecom uk-card-title" style="color: #ffffff; height:100px;;"><button class="uk-button uk-button-text uk-button-large " style="font-size: 1.6rem; color: #ffffff;padding: 15px;">PAYMENT GATEWAYS</button></h3>
+                    
+                </div>
+                </div>
+            
+              </div>
+        </div>
+</div>
+
+
+    
+
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.6.5/dist/js/uikit-icons.min.js"></script>
+<!-- Compressed JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js" integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script>
+    
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+  </body>
+  <footer>
+    <div class ="fixed-bottom" style="margin-top: 168px; padding: 0; background-color: #DC3545; @media screen onluy(width: 1024px;) {
+      margin-top:170px
+      
+    }">
+      <div class="ftr col-lg-12" style="  background-color:rgba(23, 35, 59, 0.6) ; " >
+        <div class="year" style="margin: 10px 10px;">
+          <button class="btn-danger"> <h1 style="color: #ffffff;padding-bottom: 0px; margin: 5px; text-align: center;">2021</h1></button>
+      </div>
+
+            <div class="uk-card"style="margin-top:10 px;">
+               
+                <div class="uk-card" style="color:yellowgreen; font-weight: bolde;" >
+                    <p style="color: #ffffff; font-weight: bold; position: relative; top: 20PX;">WHOLELOT DIGITALIZATION</p2>
+
+                    <p>UK | EUROPE| USA| AFRICA| ASIA</p>
+            
+                </div>
+              
+            </div>
+          
+            <div class="ingrid d-flex justify-content-between gap-2" style="padding-top: 30px;position: relative; float: right; "  >
+                
+                <ul>
+                <a  href="" style="color: #ffffff; position: relative; float: right;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                  </svg>
+                </a>
+
+                </ul>
+                
+                
+                
+                <a href="" style="color: #ffffff;position: relative; float: right;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                      </svg>
+                      
+                </a>
+                
+                
+                
+                <a href="" style="color:#ffffff;position: relative; float: right;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red" class="bi bi-twitter" viewBox="0 0 16 16">
+                    <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                  </svg>
+              
+                </a>
+                </ul>  
+                
+            </div>
+            
+      </div>
+    
+    </div> 
+  </footer>
+</html>
+

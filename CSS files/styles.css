@@ -1,0 +1,229 @@
+
+
+@media only screen and (max-width: 768px){
+.allcont{
+   padding-bottom: 100px;
+}
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 100px 100px 100px;
+    row-gap: 50px;
+    grid-template-areas: 
+        "come"
+        "with"
+        "idea";
+    margin-top: 50px;   
+    margin-left: 0px;
+    /* width: 75%; */
+    text-align: center;
+    letter-spacing: 2px;
+}
+@media only screen and (max-width: 1000px){
+    .container{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 1fr ;
+        row-gap: 10px;
+        grid-template-areas: 
+            "come"
+            "with"
+            "idea";
+        margin-top: 40px;
+        margin-left:20px;
+        letter-spacing: 25px;
+    }
+}
+.arrow{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100%;
+    grid-template-areas: 
+     "arrow";
+     position: relative;
+     top: 40%;
+
+    margin-top: 0;
+    padding-left: 0%;
+    color: #ffffff;
+    width: 100px;
+    height: 100px;    
+}
+
+@media only screen and (max-width: 1000px){
+    .arrow{
+        display: grid;
+        grid-template-columns: 0.3r;
+        grid-template-rows: 100%;
+        grid-template-areas: 
+            "arrow";
+        position: relative;
+        top: 0%; 
+        left:30% ;
+        bottom: 20%;  
+        color: black;
+        transform: rotate(45deg);
+    }
+}
+
+
+@media only screen and (max-width: 900px){
+   
+    .abbox{
+    
+        margin-bottom: 50%;
+        
+    }
+}
+
+.mcom:hover{
+    transition: ease;
+    background-color: #ffffff;
+    font-weight: 500;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius:0px ;
+    text-decoration: #dc3454;
+    color: #dc3454;
+    /* margin-left: 35px; */
+    
+   
+}
+
+.textc{
+    
+    color: #ffffff;
+   
+    
+}
+
+.textc:hover{
+    color: #dc3454;
+}
+
+
+@media only screen and  (min-width:700px) and (max-width:1000px){
+    .mcom{
+        width: 300px;
+        position: relative;
+        left: 200px;
+    }
+
+}
+
+@media only screen and  (min-width:977px) and (max-width:1400px){
+    .textc{
+        position: relative;
+        right: 30px;
+        font-size: 0.5rem;
+        letter-spacing: 2px;
+    }
+    .mcom{
+        width: 220px;
+        position: relative;
+        right: 25px;
+    }
+}
+
+
+
+@media only screen and(max-width:800px){
+    .fttr{
+    display: inline;
+    opacity: 10px;
+    }
+}
+.ftr{
+    display: grid;
+    grid-template-columns: 0.1fr 0.5fr 0.3fr;
+    grid-template-rows: auto;
+}
+/* Solutions */
+@media only screen and  (max-width:768px){
+.service-box{
+    position: relative;
+    padding-bottom: 150px;
+}
+}
+
+@media only screen and  (min-width:1024px) and (max-width:1150px){
+
+    .service-box{
+        width: 950px;
+        margin:50px;
+        
+        
+    }
+   
+    }
+
+.service-box{
+    position: relative;
+    top: 50px;
+    
+
+    margin-bottom: 0px;
+
+    /* background-color: #DC3545; */
+   
+}
+
+/* 
+@media only screen and(max-width:780px)
+{
+    body{
+        height: 1000px;
+    }
+} */
+
+/* body{
+    height: 753px;
+} */
+
+.ecom:hover{
+      transition: ease;
+      background-color: rgba(25, 71, 163, 0.692);
+      font-weight: 500;
+      border-top-right-radius: 40px;
+      border-bottom-right-radius:40px ;
+      
+}
+
+@media only screen and (max-width:800px){
+    #searchplace{
+        position: relative;
+        width: 100px;
+     
+        
+    }
+}
+
+@media only screen and (min-width:1300px){
+    .logo{
+        position: relative;
+        margin-right: 100px;
+        
+        
+    }
+}
+
+@media only screen and (max-width:400px){
+    .logo{
+        width: 200px;
+        
+    }
+}
+
+@media only screen and (max-width:575px){
+    .navbar{
+        width: 500px;
+        
+        
+        
+    }
+}
+
+
+
+
+

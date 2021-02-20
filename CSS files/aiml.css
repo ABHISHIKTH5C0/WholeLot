@@ -1,0 +1,142 @@
+.aimlbox{
+
+ height: 200px;
+ background-color: rgba(23, 35, 59, 0.6); 
+ text-align: center; 
+ padding-left: 0px;
+
+ 
+ 
+}
+
+.aimlbox:hover{
+    background-color: #fff;
+
+}
+
+
+.btnaiml{
+    position: relative;
+    bottom: 150px;
+   
+    left: 20px;
+}
+
+.aimlbox .content{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+   
+    color: #fff;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    padding-top: 30px;
+
+    
+    
+    
+}
+
+
+.content .idvbtn {
+    visibility: hidden;
+}
+
+
+
+.content:hover  {
+position:absolute;
+top: 0%;
+
+    transition: ease;
+    background-color: #fff;
+    font-weight: 500;
+    
+    padding-top: 20px;
+   
+        
+   
+    color: #000;
+}
+
+
+.content:hover .idvbtn {
+    visibility: visible ;
+    text-decoration: none;
+    margin-top: 0px;
+}
+
+
+/* @media only screen and (min-width:1300px){
+    .aimlbox{
+        position: relative;
+        margin-right: 100px;
+        
+        
+    }
+} */
+
+@media only screen and (max-width:400px){
+    .aimlbox{
+        width: 200px;
+        height: 300px;
+    }
+    .idvbtn>button  {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        margin-left: 50px;
+       
+        
+    }
+
+    .content .idv{
+        padding-top: 60px;
+        
+    }
+        
+    .content:hover .idv{
+        padding-top: 0;
+    }
+    
+    
+}
+
+@media only screen and (max-width:575px){
+    .aimlbox{
+        width: 200px;
+        height: 300px;
+    }
+    .idvbtn>button  {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 10px; 
+        
+          
+    }
+    .content .idv{
+        padding-top: 60px;
+        font-size: 1.5rem;
+        
+    
+    }
+        
+    .content:hover .idv{
+        padding-top: 0;
+    
+        
+    }
+    
+
+
+}
+
+
+.content-desc{
+    color: #ffffff ;
+      font-size: 60px; 
+      margin-top: 20px ; text-decoration: underline ; font-weight: bold;
+}

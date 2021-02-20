@@ -1,0 +1,257 @@
+
+/* standard screen size */
+
+.loginform{
+  margin-top: 5%;
+   margin-left: 30%;
+}
+
+
+.loginrember{
+
+   color: #DC3545; 
+   position: relative; 
+   right: 10%;
+   width: 150px;
+}
+
+.loginfp{
+  position: relative;
+   left: 40%;
+   bottom: 30px;
+   width: 200px;
+}
+
+.logsignup{
+  border-radius: 40px;
+   background-color: #DC3545;  
+   position:relative;
+    right:15%;
+}
+
+.loginclose{
+      margin: 30px;
+      position: relative; 
+      left: 80%;
+      border: #DC3545;
+      color: black;
+      padding: 0px;
+  }
+
+.loginclose:hover{
+  color: #DC3545;
+  border-radius:60px;
+  border: 50px;
+  border-color: black;
+  
+}
+
+.requestbtn{
+  border-radius: 40px;
+   background-color: #DC3545;  
+   position:relative;
+  margin-left:40%;
+}
+
+.requestemail{
+  width: 250px;
+    margin-left: 30%;
+
+}
+
+
+.signcontainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 300px;
+  width: 400px;
+  position: relative;
+  bottom: 1%;
+  left: 15%;
+  
+  
+
+}
+
+.signcontainer div:nth-child()
+{
+  flex-direction: row;
+  order: -2;
+  flex-shrink: 13;
+}
+
+.signcontainer div:nth-child(2)
+{
+  flex-direction: row;
+  order: -1;
+  flex-shrink: 3;
+}
+
+.signcontainer div:nth-child(3)
+{
+  order: 3;
+}
+
+.signcontainer div:nth-child(4)
+{
+  order: 4;
+}
+
+
+
+.regcheck{
+  position: relative;
+  bottom: 20px;
+  left: 10%;
+}
+
+.btnsign{
+  position: relative;
+  bottom: 50px;
+  left: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 0px) and (max-width: 600px){
+  footer { 
+      display : none; 
+      visibility : hidden; 
+  }
+}
+
+.loginlogo{
+  width: 300px;
+}
+
+@media only screen and (max-width:600px){
+  .loginlogo{
+    width: 200px;
+    position: relative;
+    right: 10px;
+  }
+}
+
+.logindesc{
+  position:relative;
+  left:25%;
+}
+
+@media only screen and (max-width:380px){
+  .logindesc{
+    position: relative;
+    left:5px;
+    width: 250px;
+    font-size: 0.7rem;
+    font-weight: bold;
+  }
+  .loginform{
+    position: relative;
+    right: 40px;
+  }
+  .loginrember{
+    margin-right:20px
+  }
+  .loginfp{
+     margin-left: 50px;
+    position: relative;
+    bottom: 33px;
+    left: 25%;
+  }
+  .logsignup{
+    position:relative;
+    left:60px;
+    bottom: 0px;
+  }
+  .loginclose{
+    position: relative;
+    margin-right: 60px;
+    padding: 0px;
+    margin-left: 0px;
+  }
+
+  .requestbtn{
+    position: relative;
+    bottom: 0px;
+    right:  20%;
+  }
+
+  .requestemail{
+    width: 250px;
+    position: relative;
+    right: 50px;
+    
+  }
+
+  .signcontainer{
+    position: relative;
+    margin-left: 0px;
+  }
+
+  
+  
+  
+}
+
+
+
+@media only screen and (max-width:420px){
+  .logindesc{
+    position: relative;
+    left:40px;
+  }
+  .loginform{
+    position: relative;
+    right: 50px;
+  }
+  .logsignup{
+    position: relative;;
+    left: 60px;
+  }
+
+  .logname{
+   
+   
+   width: 200px;
+   
+  
+  }
+
+  .btnsign{
+    position: relative;
+    left:100px;
+    bottom:30px
+  }
+  
+}
+
+
+
