@@ -1,2 +1,0 @@
-# WholeLot
-My Internship Project
