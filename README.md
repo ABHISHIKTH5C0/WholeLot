@@ -1,2 +1,2 @@
-# wholelot.github.io
+# wholelot
 My Internship Project
