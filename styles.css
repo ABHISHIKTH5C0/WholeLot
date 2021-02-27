@@ -1,9 +1,25 @@
 
 
+.solutions-box{
+
+  position: relative;
+  top: 60px;
+}
+
+
 @media only screen and (max-width: 768px){
 .allcont{
    padding-bottom: 100px;
 }
+.login_icon{
+  position: relative;
+  right: 20px;
+}
+.solutions-box{
+  position: relative;
+  top: 25px;
+}
+
 }
 .container{
     display: grid;
@@ -144,6 +160,7 @@
     position: relative;
     padding-bottom: 150px;
 }
+
 }
 
 @media only screen and  (min-width:1024px) and (max-width:1150px){
@@ -153,6 +170,10 @@
         margin:50px;
         
         
+    }
+    .solutions-box{
+      position: relative;
+      top: 50px;
     }
    
     }
@@ -164,21 +185,11 @@
 
     margin-bottom: 0px;
 
-    /* background-color: #DC3545; */
+   
    
 }
 
-/* 
-@media only screen and(max-width:780px)
-{
-    body{
-        height: 1000px;
-    }
-} */
 
-/* body{
-    height: 753px;
-} */
 
 .ecom:hover{
       transition: ease;
@@ -196,6 +207,7 @@
      
         
     }
+    
 }
 
 @media only screen and (min-width:1300px){
@@ -212,15 +224,29 @@
         width: 200px;
         
     }
+
+    .solutions-box{
+      position: relative;
+      top: 25px;
+    }
+    .services{
+        position: relative;
+        padding-bottom: 100px;
+    }
 }
 
 @media only screen and (max-width:575px){
     .navbar{
         width: 500px;
-        
-        
-        
     }
+    .solutions-box{
+      position: relative;
+      top: 22px;
+    }
+    .services{
+      position: relative;
+      padding-bottom: 100px;
+  }
 }
 
 
@@ -343,12 +369,8 @@
     bottom: 50px;
     left: 70%;
   }  
-  @media (min-width: 0px) and (max-width: 600px){
-    footer { 
-        display : none; 
-        visibility : hidden; 
-    }
-  }
+ 
+  
   
   .loginlogo{
     width: 300px;
@@ -453,6 +475,8 @@
       bottom:30px
     }
     
+
+
   }
   
   
