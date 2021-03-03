@@ -4,12 +4,13 @@
 }
 
 
-.html{
+#mainhome{
   background-image: url(./Images/map.jpg);
   height: 100vh;
+  
   background-position: center;
   background-blend-mode: multiply;
-  
+  background-color: #DC3545;
   background-size: contain;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -44,14 +45,11 @@
 .solutions-box{
   position: relative;
   top: 25px;
-  
 }
 .indexnav{
   width: fit-content;
   background-color: #ffffff ; 
 }
-
-
 
 }
 .container{
@@ -224,12 +222,10 @@
     
 
     margin-bottom: 0px;
-}
-#mainhome{
-  
-  width: 100%;
-}
 
+   
+   
+}
 
 
 
@@ -259,13 +255,12 @@
         
         
     }
-
+    #mainhome{
+      width: 100%;
+    }
 }
 
 @media only screen and (max-width:400px){
-  .whole{
-    width: 100%;
-  }
   
   .indexnav{
     width: fit-content;
@@ -312,10 +307,8 @@
       left: 10px;
   }
   #mainhome{
-    
     height: 200vh;
     width: 100%;
-    
   }
 
 }
