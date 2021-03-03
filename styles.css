@@ -1,9 +1,30 @@
 
+#mainhome{
+  
+  height: 100vh;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-color: #dc3454;
+  background-size: contain;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+ 
+}
+
+#ideadisc{
+  background-image: url(.);
+}
 
 .solutions-box{
 
   position: relative;
   top: 60px;
+}
+
+.mcom:hover{
+  transition: smooth;
+  border-radius: 40px;
+  
 }
 
 
@@ -35,6 +56,7 @@
     /* width: 75%; */
     text-align: center;
     letter-spacing: 2px;
+    color: #ffffff;
 }
 @media only screen and (max-width: 1000px){
     .container{
@@ -49,6 +71,7 @@
         margin-top: 40px;
         margin-left:20px;
         letter-spacing: 25px;
+        color: #ffffff;
     }
 }
 .arrow{
@@ -58,11 +81,11 @@
     grid-template-areas: 
      "arrow";
      position: relative;
-     top: 40%;
+     top: 25%;
 
     margin-top: 0;
     padding-left: 0%;
-    color: #ffffff;
+    
     width: 100px;
     height: 100px;    
 }
@@ -95,10 +118,10 @@
 
 .mcom:hover{
     transition: ease;
-    background-color: #ffffff;
+    background-color:#ffffff;
     font-weight: 500;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius:0px ;
+    
+    
     text-decoration: #dc3454;
     color: #dc3454;
     /* margin-left: 35px; */
@@ -108,7 +131,7 @@
 
 .textc{
     
-    color: #ffffff;
+    color: #000;
    
     
 }
@@ -117,6 +140,9 @@
     color: #dc3454;
 }
 
+.mcom{
+  background-color: #ffffff;
+}
 
 @media only screen and  (min-width:700px) and (max-width:1000px){
     .mcom{
@@ -147,6 +173,7 @@
     .fttr{
     display: inline;
     opacity: 10px;
+
     }
 }
 .ftr{
@@ -159,6 +186,7 @@
 .service-box{
     position: relative;
     padding-bottom: 150px;
+
 }
 
 }
@@ -217,6 +245,9 @@
         
         
     }
+    #mainhome{
+      
+    }
 }
 
 @media only screen and (max-width:400px){
@@ -231,8 +262,16 @@
     }
     .services{
         position: relative;
-        padding-bottom: 100px;
+        padding-bottom: 175px;
+        left: 10px;
+        
     }
+
+    #mainhome{
+      height: 200vh;
+    }
+
+
 }
 
 @media only screen and (max-width:575px){
@@ -245,8 +284,14 @@
     }
     .services{
       position: relative;
-      padding-bottom: 100px;
+      padding-bottom: 175px;
+      background-blend-mode: multiply;
+      background-attachment: fixed;
   }
+  #mainhome{
+    height: 200vh;
+  }
+
 }
 
 

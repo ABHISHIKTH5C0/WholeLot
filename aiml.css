@@ -1,11 +1,18 @@
+#aibody{
+margin: 0em;
+ height: 100vh;  
+ width: auto; 
+ background-image: url(./Images/MLSERVICES.jpg);
+}
 .aimlbox{
 
  height: 200px;
- background-color: rgba(23, 35, 59, 0.6); 
+ background-color: #dc3545; 
  text-align: center; 
  padding-left: 0px;
-
- 
+background-attachment: fixed;
+background-size: contain;
+background-blend-mode: multiply;
  
 }
 
@@ -20,6 +27,7 @@
     bottom: 150px;
    
     left: 20px;
+    
 }
 
 .aimlbox .content{
@@ -80,7 +88,11 @@ top: 0%;
 @media only screen and (max-width:400px){
     .aimlbox{
         width: 200px;
-        height: 300px;
+        height: 100px;
+        
+    }
+    #aibody{
+        height: 100vh;
     }
     .idvbtn>button  {
         display: flex;
@@ -116,6 +128,9 @@ top: 0%;
         margin-bottom: 10px; 
         
           
+    }
+    #aibody{
+        height: 200vh;
     }
     .content .idv{
         padding-top: 60px;
