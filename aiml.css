@@ -93,6 +93,7 @@ top: 0%;
     }
     #aibody{
         height: 100vh;
+        width: 100%;
     }
     .idvbtn>button  {
         display: flex;
@@ -131,6 +132,7 @@ top: 0%;
     }
     #aibody{
         height: 200vh;
+        width: 100%;
     }
     .content .idv{
         padding-top: 60px;
