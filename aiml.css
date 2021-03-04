@@ -1,9 +1,30 @@
+.databox{
+
+ height: 100px;
+width: 50%;
+ background-color: #dc3545; 
+ text-align: center; 
+ padding-left: 0px;
+background-attachment: fixed;
+background-size: contain;
+background-blend-mode: multiply;
+}
+
+.idvbtn{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+
 #aibody{
 margin: 0em;
  height: 100vh;  
  width: auto; 
  background-image: url(./Images/MLSERVICES.jpg);
 }
+
+
 .aimlbox{
 
  height: 200px;
@@ -15,6 +36,7 @@ background-size: contain;
 background-blend-mode: multiply;
  
 }
+
 
 .aimlbox:hover{
     background-color: #fff;
@@ -107,11 +129,13 @@ top: 0%;
 
     .content .idv{
         padding-top: 60px;
+
         
     }
         
     .content:hover .idv{
         padding-top: 0;
+        
     }
     
     

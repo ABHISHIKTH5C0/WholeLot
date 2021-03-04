@@ -5,7 +5,10 @@
   width: 700px;
   background-color: #ffffff ; 
 }
-
+#databody{
+  background-image: url(./Images/markus-spiske-xekxE_VR0Ec-unsplash.jpg);
+  height: 75vh;
+}
 
 #mainhome{
   background-image: url(./Images/map.jpg);
@@ -192,6 +195,7 @@
     }
 }
 .ftr{
+  
     display: grid;
     grid-template-columns: 0.1fr 0.5fr 0.3fr;
     grid-template-rows: auto;
