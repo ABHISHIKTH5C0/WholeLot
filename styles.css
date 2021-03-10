@@ -13,8 +13,6 @@
 #mainhome{
   background-image: url(./Images/map.jpg);
   height: 100vh;
-  
-
 
   background-position: center;
   background-blend-mode: multiply;
@@ -25,9 +23,7 @@
  
 }
 
-#ideadisc{
-  background-image: url(.);
-}
+
 
 .solutions-box{
 
@@ -361,7 +357,7 @@
 @media only screen and (max-width:575px){
     
   .navbar{
-        width: 100vw;
+        width: 100%;
     }
     .solutions-box{
       position: relative;

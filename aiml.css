@@ -10,6 +10,19 @@ background-size: contain;
 background-blend-mode: multiply;
 }
 
+.advbtn{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.content.advbtn{
+    visibility: hidden;
+    
+}
+.content:hover.advbtn{
+    visibility: visible;
+}
+
 .idvbtn{
     display: flex;
     flex-direction: row;
